@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Perimeters",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#peris_variousRectangles_returnPerimeter test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Trapezoidal Areas",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#traps_variousTrapezoids_returnArea test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Cone Volumes",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#cones_variousCones_returnVolume test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Cubic Surface Areas",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#cubes_variousCubes_returnSurfAreas test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Circular Areas",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#circles_variousCircles_returnAreas test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Temp Conversions",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#temps_variousTemperatures_returnTemps test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Slopes",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathemagicTest#lines_variousLines_returnSlopes test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
